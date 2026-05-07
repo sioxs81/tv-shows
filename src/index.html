@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Shows</title>
+    <script type="module" crossorigin src="/tv-shows/assets/index-G-GW3224.js"></script>
+    <link rel="stylesheet" crossorigin href="/tv-shows/assets/index-Kjwh8YUc.css">
+  </head>
+  <body>
+
+    <!-- Barra de búsqueda -->
+    <div class="search-wrapper">
+      <input
+        class="search-input"
+        type="search"
+        placeholder="🔍 Buscar serie..."
+        autocomplete="off"
+      />
+      <div class="search-results hidden"></div>
+    </div>
+
+    <!-- Estructura del HTML (slide de Prototipo del HTML) -->
+    <div class="content">
+
+      <!-- Los datos de la serie -->
+      <header></header>
+
+      <!-- Loader mientras carga -->
+      <div class="loading">Cargando serie</div>
+
+      <!-- Sección de episodios -->
+      <section class="episodes-section">
+        <h2>Episodios por temporada</h2>
+        <article class="episodes"></article>
+      </section>
+
+      <!-- Leyenda de colores de rating -->
+      <div class="legend">
+        <h3>Leyenda de valoraciones</h3>
+        <div class="legend-items">
+          <div class="legend-item">
+            <div class="legend-dot" style="--color:#2b0a27"></div><span>Sin dato</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="--color:#c53030"></div><span>≤ 5</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="--color:#dd6b20"></div><span>6</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="--color:#f6e05e"></div><span>7</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="--color:#48bb78"></div><span>8</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="--color:#2f855a"></div><span>9</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="--color:#4CAF50"></div><span>10</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Módulo JS principal -->
+  </body>
+</html>
