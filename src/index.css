@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap");
 /* ─── Reset & Variables ───────────────────────────────────────────── */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -16,8 +17,6 @@
   --font-display: "Bebas Neue", sans-serif;
   --font-body: "DM Sans", sans-serif;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap");
 
 /* ─── Base ────────────────────────────────────────────────────────── */
 html, body {
