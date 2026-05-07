@@ -1,0 +1,17 @@
+{
+  "name": "tv-shows",
+  "version": "1.0.0",
+  "description": "App de series usando la API de TVMaze con fetch y async/await",
+  "type": "module",
+  "scripts": {
+    "deploy": "vite build src && gh-pages -d dist",
+    "dev": "vite src",
+    "build": "vite build src",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "vite-plugin-gh-pages": "^1.0.1"
+  }
+  
+}
